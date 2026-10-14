@@ -1,0 +1,10 @@
+{
+  "description": "Enjoy a fun and engaging word guessing game inspired by Colombian culture, featuring intuitive design, accessible gameplay, and personalized statistics.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

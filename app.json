@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "El Ahorcado Móvil",
+    "slug": "el-ahorcado-movil",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": { "image": "./assets/splash.png", "backgroundColor": "#1F3864", "resizeMode": "contain", "imageWidth": 260 },
+    "ios": { "supportsTablet": false },
+    "android": { "adaptiveIcon": { "foregroundImage": "./assets/icon.png", "backgroundColor": "#1F3864" } },
+    "plugins": [["expo-audio", { "microphonePermission": false, "recordAudioAndroid": false, "enableBackgroundPlayback": false }]]
+  }
+}
