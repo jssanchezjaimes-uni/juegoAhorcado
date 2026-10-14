@@ -11,7 +11,7 @@ Juego de palabras colombianas desarrollado con React Native y Expo. El proyecto 
 
 ## Diseño y capturas
 
-Los archivos visuales están organizados en `docs/`: `diseno/` reúne las pantallas exportadas del diseño original de Figma y `capturas-expo/` contiene imágenes de la app ejecutándose en Expo Go.
+Los archivos visuales están organizados en `docs/`: `diseño/` reúne las pantallas exportadas del diseño original de Figma y `capturas-expo/` contiene imágenes de la app ejecutándose en Expo Go.
 
 **Diseño original**
 
@@ -38,7 +38,7 @@ el-ahorcado-movil/
 │   ├── splash.png                    # Imagen de carga de Expo
 │   └── sonidos/                      # Efectos de acierto, error, victoria y derrota
 ├── docs/
-│   ├── diseno/                       # Mockups exportados de Figma y su índice
+│   ├── diseño/                       # Mockups exportados de Figma y su índice
 │   └── capturas-expo/                # Capturas de la app en Expo Go y su índice
 ├── src/
 │   ├── components/                   # Componentes reutilizables de la interfaz
@@ -97,11 +97,11 @@ el-ahorcado-movil/
 
 ### Dificultades y puntaje
 
-| Nivel | Palabras | Pistas | Tiempo | Multiplicador |
-| --- | --- | --- | --- | --- |
-| Fácil | 4 a 6 letras | 2 | Sin límite | ×1 |
-| Medio | 7 a 9 letras | 1 | Sin límite | ×2 |
-| Difícil | 10 o más letras | Ninguna | 90 segundos | ×3 |
+| Nivel   | Palabras        | Pistas  | Tiempo      | Multiplicador |
+| ------- | --------------- | ------- | ----------- | ------------- |
+| Fácil   | 4 a 6 letras    | 2       | Sin límite  | ×1            |
+| Medio   | 7 a 9 letras    | 1       | Sin límite  | ×2            |
+| Difícil | 10 o más letras | Ninguna | 90 segundos | ×3            |
 
 - Letra correcta: **+10 puntos por cada aparición**.
 - Letra incorrecta: **−5 puntos**.
@@ -152,4 +152,3 @@ pnpm run preview
 ## Datos locales y uso sin conexión
 
 El banco de palabras, los sonidos y las imágenes están incluidos en el proyecto. Las estadísticas, el Top 10 y las preferencias se guardan en el dispositivo con AsyncStorage. Una vez cargada la aplicación, las partidas no requieren conexión a internet.
-
