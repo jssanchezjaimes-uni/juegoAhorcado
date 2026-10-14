@@ -8,10 +8,11 @@ Juego de palabras colombianas desarrollado con React Native y Expo. El proyecto 
 
 - **Video de presentación:** [Ver el video en Google Drive](https://drive.google.com/file/d/1rnKqnJl98IUpc0lMzEJJ45wjqTE7Styb/view?usp=sharing)
 - **Diseño en Figma:** [Abrir el diseño de El Ahorcado Móvil](https://www.figma.com/make/q1cVSUZoPzjtx0pOwCbFPz/Dise%C3%B1o-UI-El-Ahorcado-M%C3%B3vil?t=grWWGBDyys09bNFM-1)
+- **Licencia:** [MIT](LICENSE)
 
 ## Diseño y capturas
 
-Los archivos visuales están organizados en `docs/`: `diseño/` reúne las pantallas exportadas del diseño original de Figma y `capturas-expo/` contiene imágenes de la app ejecutándose en Expo Go.
+Los archivos visuales están organizados en `docs/`: `diseno/` reúne las pantallas exportadas del diseño original de Figma y `capturas-expo/` contiene imágenes de la app ejecutándose en Expo Go.
 
 **Diseño original**
 
@@ -33,12 +34,13 @@ el-ahorcado-movil/
 │   └── make/site.json                # Configuración usada por Vite para la vista web
 ├── .gitignore                        # Excluye dependencias, cachés y builds locales
 ├── .mise.toml                        # Versiones de Node.js y pnpm
+├── LICENSE                           # Licencia MIT
 ├── assets/
 │   ├── icon.png                      # Ícono de la aplicación
 │   ├── splash.png                    # Imagen de carga de Expo
 │   └── sonidos/                      # Efectos de acierto, error, victoria y derrota
 ├── docs/
-│   ├── diseño/                       # Mockups exportados de Figma y su índice
+│   ├── diseno/                       # Mockups exportados de Figma y su índice
 │   └── capturas-expo/                # Capturas de la app en Expo Go y su índice
 ├── src/
 │   ├── components/                   # Componentes reutilizables de la interfaz
